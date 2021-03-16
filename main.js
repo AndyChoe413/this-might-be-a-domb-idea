@@ -7,8 +7,11 @@ document.querySelector('p').innerHTML = '<p> Lorem ipsum dolor amet viral meh se
 document.getElementById("item-13").style.opacity = '0.5'
 document.getElementById("item-3").innerHTML = '<li>I say, "Hi!"</li>'
 
-const image = document.querySelector('img')
-image.src = 'http://www.tioxic.com/wp-content/uploads/trex_4.jpg'
-image.style.height = '300px'
+document.getElementById('img-1').src = 'http://www.tioxic.com/wp-content/uploads/trex_4.jpg'
+document.getElementById('img-2').src = 'https://i.pinimg.com/originals/1b/4b/50/1b4b5011a4cb0e4d81cd0e487950d325.jpg'
+document.getElementById('img-1').style.height = '300px'
+document.getElementById('img-2').style.height = '300px'
 
-document.getElementById('item-16').innerHTML = 'Won\'t get fooled again.'
+document.querySelectorAll('li')[16].className = 'item'
+document.querySelectorAll('li')[16].id = 'item-16'
+document.getElementById('item-16').innerHTML = "Won't get fooled again."
